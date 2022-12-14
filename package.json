@@ -4,7 +4,8 @@
   "description": "Estamos clonando Mercado Libre en el curso de Programación Web Full Stack de Digital House",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon -e js app.js"
+    "start": "nodemon app.js",
+    "test": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
