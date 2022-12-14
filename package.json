@@ -1,0 +1,27 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "Estamos clonando Mercado Libre en el curso de Programación Web Full Stack de Digital House",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e js app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomassalvatore/mercado-liebre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomassalvatore/mercado-liebre/issues"
+  },
+  "homepage": "https://github.com/tomassalvatore/mercado-liebre#readme"
+}

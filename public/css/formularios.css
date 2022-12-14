@@ -1,0 +1,97 @@
+.form-container {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.cajas {
+  width: 60vw;
+  font-size: 0.7em;
+  padding: 15px;
+  border: none;
+  margin: 5%;
+  border-radius: 5%;
+}
+
+ .form-container label {
+  padding: 10px;
+  display: block;
+  font-size: 13px;
+ }
+
+ p {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin: 0.5em;
+  color: gray;
+  margin-left: 19%;
+  text-align: left;
+
+}
+
+
+.user-profile-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.interest-conteiner{
+  text-align: left;
+  margin-left: 19%;
+}
+form button {
+  width: 60vw;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 450ms;
+  margin-top: 1em;
+  align-items: center;
+  border-radius: 2%;
+}
+.button {
+  align-items: center;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #0022AA;
+}
+ .reset {
+  background-color:darkred;
+ }
+
+@media (min-width: 750px){
+ 
+/* 
+  .cajas {
+    width: 50vw;
+    max-width: 800px;
+    padding: auto;
+  }
+  */
+  .cajas { 
+    width: 50vw;
+    max-width: 800px;
+    padding: auto;
+    margin:10px
+  }
+  form button {
+    width: 50vw;
+  }
+  p{
+    margin-left: 19%;
+    text-align: left;
+    font-size: 1.3em
+}
+  .user-profile-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    text-align: center;
+    
+  }
+}
