@@ -1,0 +1,80 @@
+.form-container {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box-form {
+    display: flex;
+    border: none;
+    border-radius: 5%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .cajas {
+    font-size: 0.8em;
+    padding: 15px;
+    border: none;
+    border-radius: 5%;
+    justify-content: center;
+    display: flex;
+  }
+  
+   .form-container label {
+    padding: 10px;
+    display: flex;
+    font-size: 13px;
+   }
+  
+   p {
+    font-size: 0.8em;
+    font-weight: 400;
+    margin: 0.5em;
+    color: gray;
+    margin-left: 19%;
+    text-align: left;
+  
+  }
+
+  
+form button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 450ms;
+    margin-top: 1em;
+    align-items: center;
+    border-radius: 2%;
+  }
+  .button {
+    align-items: center;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #0022AA;
+  }
+   .reset {
+    background-color:darkred;
+   }
+  
+  @media (min-width: 750px){
+   
+    .cajas { 
+      width: 50vw;
+      max-width: 800px;
+      padding: auto;
+      margin:10px
+    }
+    form button {
+      width: 50vw;
+    }
+  
+  }

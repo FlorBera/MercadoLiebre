@@ -18,9 +18,8 @@
     />
 
     <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/theme.css" />
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/formularios.css" />
+    <link rel="stylesheet" href="/css/register.css" />
     <link rel="stylesheet" href="/css/styles-tablet.css" />
     <link rel="stylesheet" href="/css/styles-desktop.css" />
 
@@ -85,10 +84,12 @@
           <input class="cajas" type= "email" name = "email" placeholder ="E-mail" required>
         </div>
 
-        <p> Fecha de Nacimiento:</p>
+        <div class = "photo">
+          <p> Fecha de Nacimiento:</p>
 
-        <div class = "box-form">
-          <input class="cajas" type = "date" name = "fecha-nac" value = "2022-12-14" required>
+          <div class = "box-form">
+            <input class="cajas" type = "date" name = "fecha-nac" value = "2022-12-14" required>
+          </div>
         </div>
 
         <div class = "box-form">
@@ -98,30 +99,33 @@
           <input class = "cajas" type = "tel" name = "telefono" placeholder = "Teléfono" required> 
         </div>
        
-      <p>Perfil del usuario:</p>
-        <div class = "user-profile-container">
-        
-          <div class = "box-form">
-            <label for="comprador "> 
-              <input type="radio"name="perfil-del-usuario"id="perfil-del-usuario">Comprador
-            </label>
+        <div class = "photo">
+          <p>Perfil del usuario:</p>
+      
+          <div class = "user-profile-container">
+                  <div class = "box-form">
+                      <label for="comprador "> 
+                       <input type="radio"name="perfil-del-usuario"id="perfil-del-usuario">Comprador
+                      </label>
+                    </div>
+                    <div class = "box-form">
+                      <label for ="Vendedor">
+                        <input type="radio"name="perfil-del-usuario" id="perfil-del-usuario">Vendedor
+                      </label>        
+                    </div>
+                  </div>
           </div>
-          <div class = "box-form">
-            <label for ="Vendedor">
-              <input type="radio"name="perfil-del-usuario" id="perfil-del-usuario">Vendedor
-            </label>        
-          </div>
-        </div>
+       </div>
 
-        <p>Intereses:</p>
-         <div class = "interest-conteiner">
-
+        <div class = "photo">
+          <p>Intereses:</p>
+          <div class = "interest-conteiner">
             <div class = "box-form"> 
               <label for="intereses">
                   <input type="checkbox" name="intereses" id="electro">Electro
               </label>
             </div>
-
+          
             <div class = "box-form">   
               <label for="intereses">
                 <input type="checkbox" name="intereses" id="moda">Moda
@@ -134,7 +138,6 @@
             </label>
             </div>
         
-
             <div class = "box-form">
                 <label for="intereses">
                    <input type="checkbox" name="intereses" id="jugueteria">Juguetería
@@ -146,6 +149,7 @@
                   <input type="checkbox" name="intereses" id="vida-sana"> Vida Sana
                 </label>
             </div>
+        </div>
         </div>
         
         <div class = "photo">

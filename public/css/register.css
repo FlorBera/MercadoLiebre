@@ -2,20 +2,33 @@
   padding: 20px;
   text-align: center;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-form {
+  display: flex;
+  border: none;
+  border-radius: 5%;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .cajas {
   width: 60vw;
-  font-size: 0.7em;
+  font-size: 0.8em;
   padding: 15px;
   border: none;
   margin: 5%;
   border-radius: 5%;
+  justify-content: center;
 }
 
  .form-container label {
   padding: 10px;
-  display: block;
+  display: flex;
   font-size: 13px;
  }
 
@@ -40,6 +53,8 @@
   text-align: left;
   margin-left: 19%;
 }
+
+
 form button {
   width: 60vw;
   padding: 10px 20px;
@@ -66,13 +81,6 @@ button:hover {
 
 @media (min-width: 750px){
  
-/* 
-  .cajas {
-    width: 50vw;
-    max-width: 800px;
-    padding: auto;
-  }
-  */
   .cajas { 
     width: 50vw;
     max-width: 800px;
@@ -82,16 +90,5 @@ button:hover {
   form button {
     width: 50vw;
   }
-  p{
-    margin-left: 19%;
-    text-align: left;
-    font-size: 1.3em
-}
-  .user-profile-container {
-    display: flex;
-    justify-content: space-between;
-    width: 50vw;
-    text-align: center;
-    
-  }
+
 }
