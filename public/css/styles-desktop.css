@@ -42,7 +42,8 @@
   }
 
   .description {
-    display: none;
+    display: block;
+    visibility: hidden;
   }
 
   .product {
@@ -54,8 +55,8 @@
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 
-  .product:hover .description{
-    display: initial;
+  .product:hover .description {
+    visibility: visible;
   }
 
   .product:hover .fa-truck {
